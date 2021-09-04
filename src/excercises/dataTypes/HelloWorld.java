@@ -1,4 +1,4 @@
-package excercises;
+package excercises.dataTypes;
 
 import java.util.Scanner;
 
