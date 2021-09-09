@@ -1,7 +1,7 @@
 package excercises.classesinjavapart1;
 
 public class HelloWord {
-    public String message = "Hello World";
+     private String message = "Hello World";
 
     public void sayHello(){
         String message = "Goodbye World";
