@@ -1,2 +1,4 @@
-package org.launchcode.java.studios.restaurant;public class Menu {
+package org.launchcode.java.studios.restaurant;
+
+public class Menu {
 }
