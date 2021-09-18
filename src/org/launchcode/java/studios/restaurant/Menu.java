@@ -33,6 +33,20 @@ public class Menu {
         return null;
     }
 
+    public boolean removeItem(String myItem){
+       MenuItems foundItem = findItem(myItem);
+        if(foundItem.getItemName().equals(myItem)){
+            items.remove(foundItem);
+            System.out.println("Item was removed successfully");
+            return true;
+        }else {
+            System.out.println("Unable to remove item");
+            return false;
+        }
+    }
+
+
+
     @Override
     public String toString() {
         return "\n " +category +"\nItems\n =" + items;
