@@ -33,5 +33,8 @@ public class Menu {
         return null;
     }
 
-
+    @Override
+    public String toString() {
+        return "\n " +category +"\nItems\n =" + items;
+    }
 }

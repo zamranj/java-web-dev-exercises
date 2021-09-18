@@ -12,8 +12,9 @@ public class Main {
         myMenu.addItem("Wings", 12.99);
         myMenu.addItem("Onion Rings", 8.99);
         myMenu.addItem("Fries", 7.99);
+        myMenu.addItem("Fries", 7.99);//duplicate
         menus.add(myMenu);
-        myMenu = new Menu("main course");
+        myMenu = new Menu("Main course");
         myMenu.addItem("Rib Eye", 15.66);
         myMenu.addItem("Chicken Salad", 12.45);
         menus.add(myMenu);
