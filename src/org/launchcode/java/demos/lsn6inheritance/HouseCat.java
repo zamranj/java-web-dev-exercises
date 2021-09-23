@@ -13,12 +13,24 @@ public class HouseCat extends Cat {
         return !isHungry() && !isTired();
     }
 
-    @Override
-    public String noise() {
-        return "Hello, my name is " + name + "!";
-    }
+//    @Override
+//    public String noise() {
+//        return "Hello, my name is " + name + "!";
+//    }
+
+
+
 
     public String purr() {
         return "I'm a HouseCat";
+    }
+
+    @Override
+    public String noise() {
+        if(isSatisfied()){
+            return "Hola! my name is "+name+ "!";
+        }else {
+            return "Meoooooooooooooow";
+        }
     }
 }
