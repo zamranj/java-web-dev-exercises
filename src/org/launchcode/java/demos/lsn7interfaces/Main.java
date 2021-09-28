@@ -8,6 +8,7 @@ public class Main {
         Case menu = new Case();
         ArrayList<Flavor> flavors = menu.getFlavors();
         ArrayList<Cone> cones = menu.getCones();
+        ArrayList<Topping> toppings = menu.getToppings();
 
         System.out.println(flavors);
         System.out.print("*****Before*****\n");
@@ -37,5 +38,10 @@ public class Main {
         }
 
         // TODO: Print the 'flavors' and 'cones' lists (in a clear manner) to verify the sorting.
+
+        //TODO: Create a Topping choose how to sort a toppings array in Main.
+
+
+
     }
 }
