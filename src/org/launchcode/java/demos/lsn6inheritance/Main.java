@@ -9,5 +9,11 @@ public class Main {
         HouseCat cheshireCat = new HouseCat("Cheshire", 12);
 
         System.out.println(cheshireCat.noise());
+
+        HouseCat tom = new HouseCat("Thomas", 12.5);
+
+
+
+
     }
 }

@@ -8,6 +8,7 @@ public class Main {
 
         SmartPhone razor = new SmartPhone(16,128,false,5.5);
         razor.startComputer();
+        razor.shutDown();
 
     }
 

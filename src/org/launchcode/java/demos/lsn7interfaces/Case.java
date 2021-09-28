@@ -27,6 +27,8 @@ public class Case {
         flavors.add(flavor3);
         flavors.add(flavor4);
         flavors.add(flavor5);
+
+
     }
 
     public ArrayList<Flavor> getFlavors() {

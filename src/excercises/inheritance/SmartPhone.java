@@ -27,6 +27,6 @@ public class SmartPhone extends Computer {
 
     @Override
     public void shutDown() {
-
+        System.out.println("Powering down.......good bye!");
     }
 }
